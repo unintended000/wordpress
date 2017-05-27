@@ -1,0 +1,1 @@
+<?php 	global $WOWTheme, $post;			if ( !in_array($WOWTheme->layout, array(1,3,6) ) )				get_sidebar('right'); 			if ( !in_array($WOWTheme->layout, array(1,2) ) )				get_sidebar('left');			if ( $WOWTheme->layout == 6 ) {				get_sidebar('right'); 			}?>		

@@ -1,0 +1,36 @@
+.feedback-departments ul {
+				float:left;width:250px;
+				padding:0 10px;
+				margin:0;
+			}
+			.feedback-departments li {
+				border:1px solid #CDCDCD;
+				padding:10px;
+				cursor:pointer;
+			}
+			.feedback-departments li.active {
+				background:#21759B;
+				color: #ffffff;
+			}
+			.department-details-container {
+				border:1px solid #CDCDCD;
+				padding:10px;
+				margin-left:270px;
+			}
+			.department-details {
+				display:none;
+			}
+			.department-details table {
+				padding-top:28px;
+			}
+			.department-details table, .department-details input[type="text"] {
+				width:100%;
+			}
+			.department-details table .button, .department-remove {
+				float:right;
+			}
+			#feedback_options {display:none; }
+			.detail-remove {
+				cursor:pointer;
+				text-decoration:underline;
+			}
